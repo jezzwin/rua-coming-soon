@@ -2,15 +2,15 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { Instagram, Facebook, Twitter } from "lucide-react"
+import { Instagram, Facebook, Youtube } from "lucide-react"
 
 export function Footer() {
   return (
     <footer className="pt-20 pb-10 relative overflow-hidden" style={{ backgroundColor: '#fffefc' }}>
       {/* Giant Background Text */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none select-none z-0">
-        <span className="font-serif text-[200px] sm:text-[200px] md:text-[400px] lg:text-[400px] xl:text-[400px] font-bold text-white/20 whitespace-nowrap leading-none">
-          RUAA
+        <span className="text-[200px] sm:text-[200px] md:text-[400px] lg:text-[400px] xl:text-[400px] font-bold text-white/20 whitespace-nowrap leading-none" style={{ fontFamily: 'Georgia, serif' }}>
+          R U A A
         </span>
       </div>
       
@@ -27,13 +27,13 @@ export function Footer() {
                 className="w-[90px] h-[90px]"
               />
             </div>
-            <h2 className="font-serif text-3xl text-foreground mb-4">RUAA</h2>
+            <h2 className="text-3xl text-foreground mb-4" style={{ fontFamily: 'Georgia, serif' }}>R U A A</h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
               Luxury design and fashion. Coming soon.
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/__ruaa____?igsh=NXJqbnZsZjJocjV4&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background flex items-center justify-center text-foreground/60 hover:text-foreground boty-transition boty-shadow"
@@ -42,7 +42,7 @@ export function Footer() {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1EdNkdPQFX/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background flex items-center justify-center text-foreground/60 hover:text-foreground boty-transition boty-shadow"
@@ -51,13 +51,13 @@ export function Footer() {
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.youtube.com/@ruaabyruthantony"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background flex items-center justify-center text-foreground/60 hover:text-foreground boty-transition boty-shadow"
-                aria-label="Twitter"
+                aria-label="YouTube"
               >
-                <Twitter className="w-4 h-4" />
+                <Youtube className="w-4 h-4" />
               </a>
             </div>
           </div>
