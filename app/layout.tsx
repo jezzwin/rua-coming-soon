@@ -20,8 +20,19 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: 'R U A A - Luxury Fashion',
   description: 'Luxury fashion brand offering exquisite contemporary designs.',
-  generator: 'v0.app',
   keywords: ['ruaa','luxury fashion', 'contemporary design', 'high-end', 'exclusive', 'designer', 'R U A A', 'fashion brand', 'premium clothing', 'couture', 'style', 'elegance', 'sophistication'],
+  openGraph: {
+    title: 'R U A A - Luxury Fashion',
+    description: 'Luxury fashion brand offering exquisite contemporary designs.',
+    images: [{ url: '/images/ruaa-logo.png', width: 800, height: 800 }],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'R U A A - Luxury Fashion',
+    description: 'Luxury fashion brand offering exquisite contemporary designs.',
+    images: ['/images/ruaa-logo.png'],
+  },
   icons: {
     icon: [
       {

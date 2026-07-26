@@ -55,7 +55,7 @@ export function Hero() {
             </span>
             <h2 className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-6 text-balance text-black" style={{ fontFamily: 'Georgia, serif' }}>
               <span className="block animate-blur-in opacity-0 font-semibold" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>Coming Soon.</span>
-              <span className="block animate-blur-in opacity-0 xl:text-9xl text-6xl" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>R U A A</span>
+              <span className="block animate-blur-in opacity-0 xl:text-9xl text-6xl whitespace-nowrap" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>R U A A</span>
             </h2>
             <p className="text-lg leading-relaxed mb-10 max-w-md mx-auto lg:mx-0 text-black animate-blur-in opacity-0" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
               An exquisite collection of contemporary design and fashion awaits. Be the first to know.
