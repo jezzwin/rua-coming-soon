@@ -18,22 +18,22 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Boty — Natural Skincare',
-  description: 'Premium natural skincare and body care products. Glow gently with Boty.',
+  title: 'R U A A - Luxury Fashion',
+  description: 'Luxury fashion brand offering exquisite contemporary designs.',
   generator: 'v0.app',
-  keywords: ['skincare', 'natural', 'organic', 'beauty', 'body care', 'cruelty-free'],
+  keywords: ['ruaa','luxury fashion', 'contemporary design', 'high-end', 'exclusive', 'designer', 'R U A A', 'fashion brand', 'premium clothing', 'couture', 'style', 'elegance', 'sophistication'],
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/images/ruaa-logo.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/images/ruaa-logo.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/images/ruaa-logo.png',
         type: 'image/svg+xml',
       },
     ],

@@ -29,7 +29,7 @@ export function Footer() {
             </div>
             <h2 className="text-3xl text-foreground mb-4" style={{ fontFamily: 'Georgia, serif' }}>R U A A</h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-              Luxury design and fashion. Coming soon.
+              Inspired by heritage, designed for the future. Hand-painted couture
             </p>
             <div className="flex gap-4">
               <a
@@ -65,18 +65,13 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-border/50">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-1">
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} RUAA. All rights reserved.
             </p>
-            <div className="flex gap-6">
-              <Link href="/" className="text-sm text-muted-foreground hover:text-foreground boty-transition">
-                Privacy Policy
-              </Link>
-              <Link href="/" className="text-sm text-muted-foreground hover:text-foreground boty-transition">
-                Terms of Service
-              </Link>
-            </div>
+            <p className="max-sm:text-xs text-muted-foreground">
+              powered by bitraccoon
+            </p>
           </div>
         </div>
       </div>

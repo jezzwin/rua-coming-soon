@@ -1,8 +1,6 @@
 "use client"
 
 import { useRef, useCallback } from "react"
-import Link from "next/link"
-import { ArrowRight } from "lucide-react"
 
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -30,18 +28,19 @@ export function Hero() {
           onTimeUpdate={handleTimeUpdate}
           style={{
             position: 'absolute',
-            top: '50%',
+            top: '25%',
             left: '50%',
-            transform: 'translate(-50%, -50%)',
+            transform: 'translate(-50%, -25%)',
             minWidth: '100%',
             minHeight: '100%',
             width: 'auto',
             height: 'auto',
             objectFit: 'cover',
+            objectPosition: 'top center',
             backgroundColor: '#e3e1e2'
           }}
         >
-          <source src="/videos/IMG_7750%20(2).mp4" type="video/mp4" />
+          <source src="/videos/BG_VIDEO.mp4" type="video/mp4" />
         </video>
         {/* Bottom fade gradient */}
         <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-t from-background via-background/50 to-transparent" />
