@@ -23,11 +23,11 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center gap-1">
             <Image
-              src="/images/ruaa-logo.png"
+              src="/images/rua-logo-black.png"
               alt="RUAA Logo"
               width={48}
               height={48}
-              className="w-12 h-12"
+              className="w-10 h-10"
             />
             <h1 className="font-serif text-2xl tracking-wider text-foreground">RUAA</h1>
           </Link>
