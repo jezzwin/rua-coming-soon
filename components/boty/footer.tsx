@@ -15,9 +15,9 @@ export function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
           {/* Brand */}
-          <div>
+          <div className="md:col-span-1">
             <div className="mb-4">
               <Image
                 src="/images/ruaa-logo.png"
@@ -60,6 +60,40 @@ export function Footer() {
                 <Youtube className="w-4 h-4" />
               </a>
             </div>
+          </div>
+
+          {/* Links */}
+          <div className="md:col-span-1">
+            <h3 className="text-lg font-medium mb-4">Information</h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>
+                <Link href="/about" className="hover:underline">About us</Link>
+              </li>
+              <li>
+                <Link href="/privacy-policy" className="hover:underline">Privacy policy</Link>
+              </li>
+              <li>
+                <Link href="/terms-and-conditions" className="hover:underline">Terms &amp; Conditions</Link>
+              </li>
+              <li>
+                <Link href="/refund-cancellation" className="hover:underline">Refund &amp; Cancellation</Link>
+              </li>
+              <li>
+                <Link href="/shipping-delivery" className="hover:underline">Shipping &amp; Delivery</Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:underline">Contact us</Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Optional small description / newsletter placeholder */}
+          <div className="md:col-span-1">
+            <h3 className="text-lg font-medium mb-4">Stay in touch</h3>
+            <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+              Sign up for updates, new collections and exclusive offers.
+            </p>
+            {/* Add newsletter form later if desired */}
           </div>
         </div>
 
